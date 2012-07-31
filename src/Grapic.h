@@ -7,8 +7,8 @@
 #include <stdio.h>
 #include <cstring>
 #include <stdarg.h>
-#include <GL/glut.h>
 #include "Vec2D.h"
+#include <GLUT/glut.h>
 
 
 //------------------------------- define some colors

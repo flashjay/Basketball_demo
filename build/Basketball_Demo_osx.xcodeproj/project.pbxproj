@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6E0C85115C81207000A31FE /* BallTeam.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C82115C81207000A31FE /* BallTeam.cpp */; };
+		D6E0C85215C81207000A31FE /* BaseGameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C82315C81207000A31FE /* BaseGameEntity.cpp */; };
+		D6E0C85315C81207000A31FE /* BasketBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C82515C81207000A31FE /* BasketBall.cpp */; };
+		D6E0C85415C81207000A31FE /* constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C82815C81207000A31FE /* constants.cpp */; };
+		D6E0C85515C81207000A31FE /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C82B15C81207000A31FE /* EntityManager.cpp */; };
+		D6E0C85615C81207000A31FE /* FieldPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C82D15C81207000A31FE /* FieldPlayer.cpp */; };
+		D6E0C85715C81207000A31FE /* FieldPlayerStates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C82F15C81207000A31FE /* FieldPlayerStates.cpp */; };
+		D6E0C85815C81207000A31FE /* FrameCounter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C83115C81207000A31FE /* FrameCounter.cpp */; };
+		D6E0C85915C81207000A31FE /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C83415C81207000A31FE /* Game.cpp */; };
+		D6E0C85A15C81207000A31FE /* Grapic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C83815C81207000A31FE /* Grapic.cpp */; };
+		D6E0C85C15C81207000A31FE /* MessageDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C83B15C81207000A31FE /* MessageDispatcher.cpp */; };
+		D6E0C85D15C81207000A31FE /* Messages.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C83D15C81207000A31FE /* Messages.cpp */; };
+		D6E0C85E15C81207000A31FE /* PlayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C84015C81207000A31FE /* PlayerBase.cpp */; };
+		D6E0C85F15C81207000A31FE /* PrecisionTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C84215C81207000A31FE /* PrecisionTimer.cpp */; };
+		D6E0C86015C81207000A31FE /* SteeringBehavior.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C84815C81207000A31FE /* SteeringBehavior.cpp */; };
+		D6E0C86115C81207000A31FE /* TeamState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C84A15C81207000A31FE /* TeamState.cpp */; };
+		D6E0C86915C81348000A31FE /* Entry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D6E0C86715C81348000A31FE /* Entry.cpp */; };
+		D6E0C87115C814E0000A31FE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E0C86F15C814E0000A31FE /* GLUT.framework */; };
+		D6E0C87215C814E0000A31FE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E0C87015C814E0000A31FE /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6E0C80F15C81116000A31FE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D6E0C81115C81116000A31FE /* game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = game; path = ./build/Release/game; sourceTree = "<absolute>"; };
+		D6E0C82015C81207000A31FE /* autolist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolist.h; path = ../src/autolist.h; sourceTree = "<group>"; };
+		D6E0C82115C81207000A31FE /* BallTeam.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BallTeam.cpp; path = ../src/BallTeam.cpp; sourceTree = "<group>"; };
+		D6E0C82215C81207000A31FE /* BallTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BallTeam.h; path = ../src/BallTeam.h; sourceTree = "<group>"; };
+		D6E0C82315C81207000A31FE /* BaseGameEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BaseGameEntity.cpp; path = ../src/BaseGameEntity.cpp; sourceTree = "<group>"; };
+		D6E0C82415C81207000A31FE /* BaseGameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseGameEntity.h; path = ../src/BaseGameEntity.h; sourceTree = "<group>"; };
+		D6E0C82515C81207000A31FE /* BasketBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasketBall.cpp; path = ../src/BasketBall.cpp; sourceTree = "<group>"; };
+		D6E0C82615C81207000A31FE /* BasketBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasketBall.h; path = ../src/BasketBall.h; sourceTree = "<group>"; };
+		D6E0C82715C81207000A31FE /* C2DMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = C2DMatrix.h; path = ../src/C2DMatrix.h; sourceTree = "<group>"; };
+		D6E0C82815C81207000A31FE /* constants.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = constants.cpp; path = ../src/constants.cpp; sourceTree = "<group>"; };
+		D6E0C82915C81207000A31FE /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = constants.h; path = ../src/constants.h; sourceTree = "<group>"; };
+		D6E0C82A15C81207000A31FE /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Debug.h; path = ../src/Debug.h; sourceTree = "<group>"; };
+		D6E0C82B15C81207000A31FE /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EntityManager.cpp; path = ../src/EntityManager.cpp; sourceTree = "<group>"; };
+		D6E0C82C15C81207000A31FE /* EntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntityManager.h; path = ../src/EntityManager.h; sourceTree = "<group>"; };
+		D6E0C82D15C81207000A31FE /* FieldPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FieldPlayer.cpp; path = ../src/FieldPlayer.cpp; sourceTree = "<group>"; };
+		D6E0C82E15C81207000A31FE /* FieldPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FieldPlayer.h; path = ../src/FieldPlayer.h; sourceTree = "<group>"; };
+		D6E0C82F15C81207000A31FE /* FieldPlayerStates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FieldPlayerStates.cpp; path = ../src/FieldPlayerStates.cpp; sourceTree = "<group>"; };
+		D6E0C83015C81207000A31FE /* FieldPlayerStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FieldPlayerStates.h; path = ../src/FieldPlayerStates.h; sourceTree = "<group>"; };
+		D6E0C83115C81207000A31FE /* FrameCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FrameCounter.cpp; path = ../src/FrameCounter.cpp; sourceTree = "<group>"; };
+		D6E0C83215C81207000A31FE /* FrameCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrameCounter.h; path = ../src/FrameCounter.h; sourceTree = "<group>"; };
+		D6E0C83415C81207000A31FE /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = ../src/Game.cpp; sourceTree = "<group>"; };
+		D6E0C83515C81207000A31FE /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../src/Game.h; sourceTree = "<group>"; };
+		D6E0C83615C81207000A31FE /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = geometry.h; path = ../src/geometry.h; sourceTree = "<group>"; };
+		D6E0C83715C81207000A31FE /* Goal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Goal.h; path = ../src/Goal.h; sourceTree = "<group>"; };
+		D6E0C83815C81207000A31FE /* Grapic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Grapic.cpp; path = ../src/Grapic.cpp; sourceTree = "<group>"; };
+		D6E0C83915C81207000A31FE /* Grapic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Grapic.h; path = ../src/Grapic.h; sourceTree = "<group>"; };
+		D6E0C83A15C81207000A31FE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../src/main.cpp; sourceTree = "<group>"; };
+		D6E0C83B15C81207000A31FE /* MessageDispatcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MessageDispatcher.cpp; path = ../src/MessageDispatcher.cpp; sourceTree = "<group>"; };
+		D6E0C83C15C81207000A31FE /* MessageDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessageDispatcher.h; path = ../src/MessageDispatcher.h; sourceTree = "<group>"; };
+		D6E0C83D15C81207000A31FE /* Messages.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Messages.cpp; path = ../src/Messages.cpp; sourceTree = "<group>"; };
+		D6E0C83E15C81207000A31FE /* Messages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Messages.h; path = ../src/Messages.h; sourceTree = "<group>"; };
+		D6E0C83F15C81207000A31FE /* MovingEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovingEntity.h; path = ../src/MovingEntity.h; sourceTree = "<group>"; };
+		D6E0C84015C81207000A31FE /* PlayerBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PlayerBase.cpp; path = ../src/PlayerBase.cpp; sourceTree = "<group>"; };
+		D6E0C84115C81207000A31FE /* PlayerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerBase.h; path = ../src/PlayerBase.h; sourceTree = "<group>"; };
+		D6E0C84215C81207000A31FE /* PrecisionTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrecisionTimer.cpp; path = ../src/PrecisionTimer.cpp; sourceTree = "<group>"; };
+		D6E0C84315C81207000A31FE /* PrecisionTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrecisionTimer.h; path = ../src/PrecisionTimer.h; sourceTree = "<group>"; };
+		D6E0C84415C81207000A31FE /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Region.h; path = ../src/Region.h; sourceTree = "<group>"; };
+		D6E0C84515C81207000A31FE /* Regulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Regulator.h; path = ../src/Regulator.h; sourceTree = "<group>"; };
+		D6E0C84615C81207000A31FE /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = State.h; path = ../src/State.h; sourceTree = "<group>"; };
+		D6E0C84715C81207000A31FE /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateMachine.h; path = ../src/StateMachine.h; sourceTree = "<group>"; };
+		D6E0C84815C81207000A31FE /* SteeringBehavior.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SteeringBehavior.cpp; path = ../src/SteeringBehavior.cpp; sourceTree = "<group>"; };
+		D6E0C84915C81207000A31FE /* SteeringBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SteeringBehavior.h; path = ../src/SteeringBehavior.h; sourceTree = "<group>"; };
+		D6E0C84A15C81207000A31FE /* TeamState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TeamState.cpp; path = ../src/TeamState.cpp; sourceTree = "<group>"; };
+		D6E0C84B15C81207000A31FE /* TeamState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TeamState.h; path = ../src/TeamState.h; sourceTree = "<group>"; };
+		D6E0C84C15C81207000A31FE /* Telegram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Telegram.h; path = ../src/Telegram.h; sourceTree = "<group>"; };
+		D6E0C84D15C81207000A31FE /* Transformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Transformations.h; path = ../src/Transformations.h; sourceTree = "<group>"; };
+		D6E0C84E15C81207000A31FE /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = ../src/utils.h; sourceTree = "<group>"; };
+		D6E0C84F15C81207000A31FE /* Vec2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vec2D.h; path = ../src/Vec2D.h; sourceTree = "<group>"; };
+		D6E0C85015C81207000A31FE /* Wall2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wall2D.h; path = ../src/Wall2D.h; sourceTree = "<group>"; };
+		D6E0C86715C81348000A31FE /* Entry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Entry.cpp; path = ../src/Entry.cpp; sourceTree = "<group>"; };
+		D6E0C86F15C814E0000A31FE /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		D6E0C87015C814E0000A31FE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6E0C80E15C81116000A31FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E0C87115C814E0000A31FE /* GLUT.framework in Frameworks */,
+				D6E0C87215C814E0000A31FE /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6E0C80615C81116000A31FE = {
+			isa = PBXGroup;
+			children = (
+				D6E0C86F15C814E0000A31FE /* GLUT.framework */,
+				D6E0C87015C814E0000A31FE /* OpenGL.framework */,
+				D6E0C86E15C81482000A31FE /* framwork */,
+				D6E0C81F15C8115B000A31FE /* src */,
+				D6E0C81215C81116000A31FE /* bin */,
+			);
+			sourceTree = "<group>";
+		};
+		D6E0C81215C81116000A31FE /* bin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = bin;
+			sourceTree = "<group>";
+		};
+		D6E0C81F15C8115B000A31FE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D6E0C82015C81207000A31FE /* autolist.h */,
+				D6E0C82115C81207000A31FE /* BallTeam.cpp */,
+				D6E0C82215C81207000A31FE /* BallTeam.h */,
+				D6E0C82315C81207000A31FE /* BaseGameEntity.cpp */,
+				D6E0C82415C81207000A31FE /* BaseGameEntity.h */,
+				D6E0C82515C81207000A31FE /* BasketBall.cpp */,
+				D6E0C82615C81207000A31FE /* BasketBall.h */,
+				D6E0C82715C81207000A31FE /* C2DMatrix.h */,
+				D6E0C82815C81207000A31FE /* constants.cpp */,
+				D6E0C82915C81207000A31FE /* constants.h */,
+				D6E0C82A15C81207000A31FE /* Debug.h */,
+				D6E0C82B15C81207000A31FE /* EntityManager.cpp */,
+				D6E0C82C15C81207000A31FE /* EntityManager.h */,
+				D6E0C86715C81348000A31FE /* Entry.cpp */,
+				D6E0C82D15C81207000A31FE /* FieldPlayer.cpp */,
+				D6E0C82E15C81207000A31FE /* FieldPlayer.h */,
+				D6E0C82F15C81207000A31FE /* FieldPlayerStates.cpp */,
+				D6E0C83015C81207000A31FE /* FieldPlayerStates.h */,
+				D6E0C83115C81207000A31FE /* FrameCounter.cpp */,
+				D6E0C83215C81207000A31FE /* FrameCounter.h */,
+				D6E0C83415C81207000A31FE /* Game.cpp */,
+				D6E0C83515C81207000A31FE /* Game.h */,
+				D6E0C83615C81207000A31FE /* geometry.h */,
+				D6E0C83715C81207000A31FE /* Goal.h */,
+				D6E0C83815C81207000A31FE /* Grapic.cpp */,
+				D6E0C83915C81207000A31FE /* Grapic.h */,
+				D6E0C83A15C81207000A31FE /* main.cpp */,
+				D6E0C83B15C81207000A31FE /* MessageDispatcher.cpp */,
+				D6E0C83C15C81207000A31FE /* MessageDispatcher.h */,
+				D6E0C83D15C81207000A31FE /* Messages.cpp */,
+				D6E0C83E15C81207000A31FE /* Messages.h */,
+				D6E0C83F15C81207000A31FE /* MovingEntity.h */,
+				D6E0C84015C81207000A31FE /* PlayerBase.cpp */,
+				D6E0C84115C81207000A31FE /* PlayerBase.h */,
+				D6E0C84215C81207000A31FE /* PrecisionTimer.cpp */,
+				D6E0C84315C81207000A31FE /* PrecisionTimer.h */,
+				D6E0C84415C81207000A31FE /* Region.h */,
+				D6E0C84515C81207000A31FE /* Regulator.h */,
+				D6E0C84615C81207000A31FE /* State.h */,
+				D6E0C84715C81207000A31FE /* StateMachine.h */,
+				D6E0C84815C81207000A31FE /* SteeringBehavior.cpp */,
+				D6E0C84915C81207000A31FE /* SteeringBehavior.h */,
+				D6E0C84A15C81207000A31FE /* TeamState.cpp */,
+				D6E0C84B15C81207000A31FE /* TeamState.h */,
+				D6E0C84C15C81207000A31FE /* Telegram.h */,
+				D6E0C84D15C81207000A31FE /* Transformations.h */,
+				D6E0C84E15C81207000A31FE /* utils.h */,
+				D6E0C84F15C81207000A31FE /* Vec2D.h */,
+				D6E0C85015C81207000A31FE /* Wall2D.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D6E0C86E15C81482000A31FE /* framwork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = framwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6E0C81015C81116000A31FE /* game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6E0C81B15C81116000A31FE /* Build configuration list for PBXNativeTarget "game" */;
+			buildPhases = (
+				D6E0C80D15C81116000A31FE /* Sources */,
+				D6E0C80E15C81116000A31FE /* Frameworks */,
+				D6E0C80F15C81116000A31FE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = game;
+			productName = Basketball_Demo_xcode;
+			productReference = D6E0C81115C81116000A31FE /* game */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6E0C80815C81116000A31FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = FarYang;
+			};
+			buildConfigurationList = D6E0C80B15C81116000A31FE /* Build configuration list for PBXProject "Basketball_Demo_osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D6E0C80615C81116000A31FE;
+			productRefGroup = D6E0C81215C81116000A31FE /* bin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6E0C81015C81116000A31FE /* game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6E0C80D15C81116000A31FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6E0C85115C81207000A31FE /* BallTeam.cpp in Sources */,
+				D6E0C85215C81207000A31FE /* BaseGameEntity.cpp in Sources */,
+				D6E0C85315C81207000A31FE /* BasketBall.cpp in Sources */,
+				D6E0C85415C81207000A31FE /* constants.cpp in Sources */,
+				D6E0C85515C81207000A31FE /* EntityManager.cpp in Sources */,
+				D6E0C85615C81207000A31FE /* FieldPlayer.cpp in Sources */,
+				D6E0C85715C81207000A31FE /* FieldPlayerStates.cpp in Sources */,
+				D6E0C85815C81207000A31FE /* FrameCounter.cpp in Sources */,
+				D6E0C85915C81207000A31FE /* Game.cpp in Sources */,
+				D6E0C85A15C81207000A31FE /* Grapic.cpp in Sources */,
+				D6E0C85C15C81207000A31FE /* MessageDispatcher.cpp in Sources */,
+				D6E0C85D15C81207000A31FE /* Messages.cpp in Sources */,
+				D6E0C85E15C81207000A31FE /* PlayerBase.cpp in Sources */,
+				D6E0C85F15C81207000A31FE /* PrecisionTimer.cpp in Sources */,
+				D6E0C86015C81207000A31FE /* SteeringBehavior.cpp in Sources */,
+				D6E0C86115C81207000A31FE /* TeamState.cpp in Sources */,
+				D6E0C86915C81348000A31FE /* Entry.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D6E0C81915C81116000A31FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D6E0C81A15C81116000A31FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D6E0C81C15C81116000A31FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6E0C81D15C81116000A31FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6E0C80B15C81116000A31FE /* Build configuration list for PBXProject "Basketball_Demo_osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E0C81915C81116000A31FE /* Debug */,
+				D6E0C81A15C81116000A31FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6E0C81B15C81116000A31FE /* Build configuration list for PBXNativeTarget "game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6E0C81C15C81116000A31FE /* Debug */,
+				D6E0C81D15C81116000A31FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6E0C80815C81116000A31FE /* Project object */;
+}
